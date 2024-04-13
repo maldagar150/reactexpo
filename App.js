@@ -4,11 +4,9 @@ import { View, Text, ImageBackground, StyleSheet, TouchableOpacity, Modal, Image
 export default function HomeScreen() {
   const [textModalVisible, setTextModalVisible] = useState(false);
   const [imageModalVisible, setImageModalVisible] = useState(false);
-  const [name, setName] = useState('');
 
   const nombre = () => {
     setTextModalVisible(true);
-    setName('Jilmer Estiben Pedraza Ramos');
   };
 
   const imagen = () => {
