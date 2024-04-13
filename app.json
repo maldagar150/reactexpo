@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "45c441d0-e658-433e-9214-93d3b5a85c4b"
+      }
+    },
+    "owner": "maldagar150"
   }
 }
